@@ -7,29 +7,38 @@ nav{
 	background-color:crimson;
 	width:25%;
 	height:500px;
-
+}
+.column {
+	flex:25%;
+	padding:5px;
+}
+.row{
+	display:flex;
 }
 #pic1 {
-	width:25%;
-	height:500px;
 	background-color:white;
 }
-#pic2 {
-	width:25%;
-	height:500px;
+#pic1:hover {
 	background-color:crimson;
 }
-#pic3 {
-	width:25%;
-	height:500px;
+#pic2 {
+	background-color:crimson
+}
+#pic2:hover {
 	background-color:white;
+}
+#pic3 {
+	background-color:white;
+}
+#pic3:hover {
+	background-color:crimson
 }
 ul {
 	list-style-type:none;
 	padding:0px;
 }
 li a {
-	background-color:crimson;
+	background-color: white;
 	text-decoration:none;
 	margin:25px;
 	padding:20px;
@@ -42,7 +51,12 @@ li a:hover{
 }
 h1 {
 	font-size:300%;
+	text-align:center;
+}
+#name {
 	background-color:crimson;
 	box-shadow: 10px 15px black;
 	text-decoration: underline;
+	text-align:center;
+	margin:5px;
 }
